@@ -1,27 +1,28 @@
-# AngularToDoList
+# Angular-To-Do-List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+<p align="center">
+<img src="src/images/angular-to-do-list.gif">
+</p>
 
-## Development server
+### See it live
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://angular-to-do-list-dylanattal.surge.sh/
 
-## Code scaffolding
+### Summary
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project was my first time using Angular! I followed along with a tutorial online by Brad Traversy at https://www.youtube.com/watch?v=Fdf5aTYRW0E. The goal of this project was to familiarize myself with how Angular works. Traversy began by explaining the basics of Angular to beginners, then we built a To Do List app step-by-step.
 
-## Build
+This was also my first time using TypeScript. I can see how static typing helps catch bugs even before running the code. Breaking the UI into components was familiar to me since I've had experience with React, but I found that Angular is different in a lot of ways. One way that stands out is that Angular seems to have a lot more packaged with it, like a router. Angular also comes with the HttpClient service; I had always imported a separate library into React to help with API calls. On that note, it seems like Angular separates duties of code more stringently than React. The idea of services was new to me; apparently in Angular, components shouldn't fetch or save data directly and instead should focus on presenting data and delegate data access to a service.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Project Goals
 
-## Running unit tests
+- [x] Learn the basics of Angular
+- [x] Familiarize myself with TypeScript
+- [x] Break UI into components: Header, AddTodo, Todos, Todo-item
+- [x] Display fake todos from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) using a GET request
+- [x] Allow the user to add, cross off, and delete todos utilizing POST, PUT, and DELETE requests
+- [x] Use Angular router to toggle between Home and About pages
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Technologies Used
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+HTML, CSS, TypeScript, Angular
